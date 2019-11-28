@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dubbo_demo-consumer" />
+        <module name="service2-interface" />
+        <module name="service2-provider" />
         <module name="dubbo_demo-provider" />
         <module name="dubbo_demo-interface" />
       </profile>

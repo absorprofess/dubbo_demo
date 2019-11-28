@@ -14,7 +14,7 @@ public class DemoServiceImpl implements DemoService {
     public String sayHello(String name) {
 
         logger.info("Hello " + name + ", request from consumer: " + RpcContext.getContext().getRemoteAddress());
-        return "Hello " + name + ", response from provider: " + RpcContext.getContext().getLocalAddress();
+        return "吔屎啦你 " + name;
     }
 
 }

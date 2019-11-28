@@ -1,5 +1,7 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.eoner</groupId>
@@ -7,11 +9,11 @@
         <version>1.0</version>
     </parent>
     <groupId>com.eoner</groupId>
-    <artifactId>dubbo_demo-consumer</artifactId>
+    <artifactId>service2-provider</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
     <name>${project.artifactId}</name>
-    <description>The demo consumer module of dubbo project</description>
+    <description>The demo provider module of dubbo project</description>
     <properties>
         <skip_maven_deploy>true</skip_maven_deploy>
         <slf4j-log4j12.version>1.7.25</slf4j-log4j12.version>
@@ -19,15 +21,6 @@
         <dubbo.version>2.7.3</dubbo.version>
     </properties>
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.eoner</groupId>
-            <artifactId>dubbo_demo-interface</artifactId>
-            <version>1.0</version>
-        </dependency>
         <dependency>
             <groupId>com.eoner</groupId>
             <artifactId>service2-interface</artifactId>
@@ -76,4 +69,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

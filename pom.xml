@@ -13,6 +13,8 @@
         <module>dubbo_demo-interface</module>
         <module>dubbo_demo-provider</module>
         <module>dubbo_demo-consumer</module>
+        <module>service2-interface</module>
+        <module>service2-provider</module>
     </modules>
 
     <dependencyManagement>
