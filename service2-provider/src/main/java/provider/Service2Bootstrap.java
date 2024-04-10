@@ -12,4 +12,5 @@ public class Service2Bootstrap {
         new SpringApplicationBuilder(Service2Bootstrap.class)
                 .run(args);
     }
+
 }
